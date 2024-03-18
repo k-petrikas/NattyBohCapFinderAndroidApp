@@ -1,8 +1,8 @@
-package com.example.aindroid.capfinder;
-
-import org.junit.Test;
+package com.bmorekp.android.capfinder;
 
 import static org.junit.Assert.*;
+
+import org.junit.jupiter.api.Test;
 
 /**
  * Example local unit test, which will execute on the development machine (host).

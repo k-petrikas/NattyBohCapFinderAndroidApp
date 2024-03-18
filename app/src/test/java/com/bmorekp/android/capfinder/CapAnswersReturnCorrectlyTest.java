@@ -1,7 +1,9 @@
-package com.example.aindroid.capfinder;
+package com.bmorekp.android.capfinder;
 
-import org.junit.Before;
-import org.junit.Test;
+import com.bmorekp.android.capfinder.MainActivity;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -49,7 +51,7 @@ public class CapAnswersReturnCorrectlyTest {
         return map.get(key);
     }
 
-    @Before
+    @BeforeEach
     public void doBeforeTest(){
         CapAnswersHashmap();
     }
