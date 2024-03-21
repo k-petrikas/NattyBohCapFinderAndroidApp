@@ -1,9 +1,7 @@
 package com.bmorekp.android.capfinder;
 
-import com.bmorekp.android.capfinder.MainActivity;
-
+import org.junit.Test;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -27,7 +25,7 @@ public class CapAnswersReturnCorrectlyTest {
 //
 //    }
 
-    private static final Map<String, String> map = new HashMap<String, String>();  // it should be static - whereever you define
+    private static final Map<String, String> map = new HashMap<String, String>();  // it should be static - wherever you define
 
 
     public void CapAnswersHashmap() {
